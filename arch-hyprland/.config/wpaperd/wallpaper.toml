@@ -1,0 +1,4 @@
+[default]
+path = "/home/jhesso/.bg/"
+duration = "5m"
+sorting = "random"

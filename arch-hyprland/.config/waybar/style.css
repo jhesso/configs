@@ -1,0 +1,94 @@
+@import "mocha.css";
+
+* {
+  /* `otf-font-awesome` is required to be installed for icons */
+  font-family: FiraCodeNerdFont;
+  font-size: 15px;
+}
+
+window#waybar {
+   color: @base;
+   margin: 0;
+   padding: 0;
+   background: @base;
+}
+
+#custom-arch {
+  font-size: 20px;
+  background-color: @base;
+  color: @blue
+
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background-color: @base;
+    color: @overlay;
+}
+
+#workspaces button label {
+  font-size: 16px;
+}
+
+#workspaces button.urgent {
+  color: @text;
+}
+
+#clock {
+  background-color: @base;
+  color: @mauve;
+}
+
+#network {
+  background-color: @pink;
+  color: @base;
+  padding: 5px;
+}
+
+#temperature {
+  background-color: @red;
+  color: @base;
+  padding: 10px;
+}
+
+#wireplumber {
+  background-color: @peach;
+  color: @base;
+  padding: 10px;
+}
+
+#backlight {
+  background-color: @yellow;
+  color: @base;
+  padding: 10px;
+}
+
+#battery {
+  background-color: @green;
+  color: @base;
+  padding: 10px;
+}
+
+#disk {
+  background-color: @teal;
+  color: @base;
+  padding: 10px;
+}
+
+#memory {
+  background-color: @sapphire;
+  color: @base;
+  padding: 10px;
+}
+
+#cpu {
+  background-color: @lavender;
+  color: @base;
+  padding: 10px;
+}
+
+#bluetooth {
+  background-color: @blue;
+  color: @base;
+  padding: 10px;
+}
